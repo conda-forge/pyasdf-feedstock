@@ -1,6 +1,6 @@
 {% set name = "pyasdf" %}
-{% set version = "0.1.4" %}
-{% set sha256 = "338ec9eeaaa98e0adbe29ad9a13520b8ddfa8d2e0e3d5f84e5d181c7becb9b96" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "83f6421e30c2918b4fc01d2a08743d8677741dd854538f0ffac4489c9d087949" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,6 @@ source:
 build:
   number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
-  skip: True  # [py36]
 
 requirements:
   build:
