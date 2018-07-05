@@ -20,14 +20,15 @@ For further information and contact information please see these two web sites:
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyasdf-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyasdf-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyasdf-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyasdf-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyasdf-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyasdf-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pyasdf-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pyasdf-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyasdf/badges/version.svg)](https://anaconda.org/conda-forge/pyasdf)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyasdf/badges/downloads.svg)](https://anaconda.org/conda-forge/pyasdf)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyasdf-green.svg)](https://anaconda.org/conda-forge/pyasdf) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyasdf.svg)](https://anaconda.org/conda-forge/pyasdf) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyasdf.svg)](https://anaconda.org/conda-forge/pyasdf) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyasdf.svg)](https://anaconda.org/conda-forge/pyasdf) |
 
 Installing pyasdf
 =================
