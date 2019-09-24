@@ -1,6 +1,6 @@
 {% set name = "pyasdf" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "49ac16709481b2771a7db6bd5e7d99d32c786227139bccc2a432e619da8bb811" %}
+{% set version = "0.5.0" %}
+{% set sha256 = "35f88c9843e1c301ff995b3fd7b7d2650c6d3b4a33313d2c422e1028da133a19" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
