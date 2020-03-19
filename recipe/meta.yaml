@@ -1,7 +1,6 @@
 {% set name = "pyasdf" %}
-{% set version = "0.5.1" %}
-{% set sha256 = "86df51ead56ccaf855d2a3ddfa3a1da390031320d0ec117cccd945a24eac2fbf" %}
-
+{% set version = "0.6.0" %}
+{% set sha256 = "0bca8ae30bf7bdc4fc3f880a9ebd5b482171e9f35ab0f30730f50de57d2d5295" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -19,10 +18,10 @@ build:
 requirements:
   build:
     - pip
-    - python
+    - python >=3.7
     - setuptools
   run:
-    - python
+    - python >=3.7
     - obspy
     - colorama
     - h5py
@@ -39,7 +38,7 @@ test:
 
 about:
   home: https://seismicdata.github.io/pyasdf/index.html
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE.txt
   summary: 'Python module for working with ASDF files.'
   description: |
