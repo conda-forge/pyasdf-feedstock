@@ -1,6 +1,6 @@
 {% set name = "pyasdf" %}
-{% set version = "0.7.2" %}
-{% set sha256 = "7920534479589b2473b04f0b7dc1d8962c078ba60d17222b8a42466bc18b65d1" %}
+{% set version = "0.7.3" %}
+{% set sha256 = "00df2a207242348977266ecdb1c7fedd6d47511034062f89a6a9d6e2ae376795" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
