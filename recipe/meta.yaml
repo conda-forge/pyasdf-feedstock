@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -40,7 +40,7 @@ about:
   home: https://seismicdata.github.io/pyasdf/index.html
   license: BSD-3-Clause
   license_file: LICENSE.txt
-  summary: 'Python module for working with ASDF files.'
+  summary: Python module for working with ASDF files.
   description: |
     Python module for the Adaptable Seismic Data Format (ASDF).
 
