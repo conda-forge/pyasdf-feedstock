@@ -5,7 +5,7 @@ Home: https://seismicdata.github.io/pyasdf/index.html
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python module for working with ASDF files.
 
