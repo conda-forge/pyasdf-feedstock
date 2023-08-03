@@ -1,6 +1,6 @@
 {% set name = "pyasdf" %}
-{% set version = "0.8.0" %}
-{% set sha256 = "69c1b853cb3b60ccd8041e690de524ee30cb8a02bc78cd4925d93f17ff8d3d49" %}
+{% set version = "0.8.1" %}
+{% set sha256 = "3b9ff6001ef63ec4bac77d3f6b613f3d829a80d56c884f59b35aeaddd9e4dc12" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -20,6 +20,7 @@ requirements:
     - pip
     - python >=3.7
     - setuptools
+    - setuptools_scm
   run:
     - python >=3.7
     - obspy
